@@ -1,0 +1,11 @@
+server:
+  port: 8090
+
+origenspermitidas: http://localhost:4200,http://ec2-44-203-156-186.compute-1.amazonaws.com:8081,http://localhost:8080
+
+com: 
+  kb: 
+    jwt: 
+      aws: 
+        userPoolId: "us-east-1_0sVdlrSMk" 
+        region: "us-east-1"
