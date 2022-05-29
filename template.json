@@ -15,8 +15,8 @@
             "portMappings": [
                 {
      
-                    "containerPort": 8081,
-                    "hostPort": 8081
+                    "containerPort": 8090,
+                    "hostPort": 8090
                 }
             ],
             "logConfiguration": {
