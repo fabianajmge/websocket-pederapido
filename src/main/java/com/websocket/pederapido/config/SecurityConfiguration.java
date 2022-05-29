@@ -15,6 +15,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 		http.headers().cacheControl();
 		http.csrf().disable()
 				.authorizeRequests()
+				.antMatchers("/socket/**").permitAll()
 				.antMatchers("*").permitAll()
 	            .and().csrf().and()
 //	            .disable()
