@@ -12,8 +12,8 @@ public class Properties {
 	
 	 private String[] origensPermitidas;
 	 
-	 @Autowired
-	    public Properties(@Value("${origenspermitidas}") String[] origens) {
+	 	@Autowired
+	    public Properties(@Value("${websocket.origenspermitidas}") String[] origens) {
 	        this.origensPermitidas = origens;
 	    }
 
