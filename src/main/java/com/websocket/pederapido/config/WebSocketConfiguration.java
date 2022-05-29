@@ -11,13 +11,13 @@ import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerCo
 @EnableWebSocketMessageBroker
 public class WebSocketConfiguration implements WebSocketMessageBrokerConfigurer {
 	
-//	@Autowired
-//	private Properties properties;
+	@Autowired
+	private Properties properties;
 	
 	@Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint("/socket")
-                .setAllowedOrigins("http://ec2-54-86-78-167.compute-1.amazonaws.com:8081/")
+                .setAllowedOrigins(properties.getOrigensPermitidas())
                 .withSockJS();
     }
 
