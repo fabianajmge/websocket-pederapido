@@ -1,7 +1,7 @@
 server:
   port: 8090
 
-origenspermitidas: http://localhost:4200,http://ec2-44-203-156-186.compute-1.amazonaws.com:8081,http://localhost:8080,http://3.88.9.100:8080/
+origenspermitidas: http://localhost:4200,http://ec2-54-86-78-167.compute-1.amazonaws.com:8081,http://localhost:8080,http://3.88.9.100:8080/
 
 com: 
   kb: 
