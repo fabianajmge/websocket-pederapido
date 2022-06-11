@@ -27,7 +27,7 @@ public class CorsFilter implements Filter {
         urlsPermitidas.add("http://localhost:4200");
         urlsPermitidas.add("http://ec2-44-203-56-241.compute-1.amazonaws.com:8081");
         urlsPermitidas.add("http://localhost:8080");
-        urlsPermitidas.add("http://3.88.9.100:8080");
+        urlsPermitidas.add("http://34.201.0.139:8080");
         String urlCross = "*";
         
         if (urlsPermitidas.contains(request.getHeader("Origin"))) {
